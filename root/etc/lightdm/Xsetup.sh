@@ -1,0 +1,1 @@
+/etc/lightdm/Xsetup.sh

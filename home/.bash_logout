@@ -1,3 +1,1 @@
-#
-# ~/.bash_logout
-#
+/home/nonwibb/.bash_logout
