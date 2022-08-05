@@ -1,4 +1,3 @@
-
 awesome
 discord
 feh
@@ -15,6 +14,7 @@ noto-fonts-emoji
 pavucontrol
 picom-ibhagwan-git
 steam
+stow
 thunar
 thunar-archive-plugin
 thunar-media-tags-plugin
