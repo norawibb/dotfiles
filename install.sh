@@ -16,7 +16,6 @@ echo "installing packages"
 # install packages
 yay -S --needed - < pkglist.txt ;
 
-
 echo "clearing existing config files"
 for i in $(find home -type f)
 do
@@ -33,5 +32,5 @@ do
 done
 
 echo "stowing new dots and configs"
-stow home
-sudo stow -t / root
+stow --no-folding home
+sudo stow --no-folding -t / root
