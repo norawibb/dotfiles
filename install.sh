@@ -14,8 +14,24 @@ fi
 
 echo "installing packages"
 # install packages
-yay -S --needed - < pkglist.txt &&
+yay -S --needed - < pkglist.txt ;
 
-echo "stowing dots and configs"
+
+echo "clearing existing config files"
+for i in $(find home -type f)
+do
+	filepath=$(ls $i | sed "s|home|$HOME|")
+	echo $filepath
+	rm $filepath
+done
+
+for i in $(find root -type f)
+do
+	filepath=$(ls $i | sed "s/root//")
+	echo $filepath
+	sudo rm $filepath
+done
+
+echo "stowing new dots and configs"
 stow home
 sudo stow -t / root
