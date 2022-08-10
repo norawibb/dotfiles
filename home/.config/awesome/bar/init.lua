@@ -1,2 +1,0 @@
-
-mykeyboardlayout = require("bar.keyboardlayout")

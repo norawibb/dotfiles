@@ -31,6 +31,9 @@ do
 	sudo rm $filepath
 done
 
+# break all links
+find -L $HOME -maxdepth 1 -type l -delete
+
 echo "stowing new dots and configs"
 stow --no-folding home
 sudo stow --no-folding -t / root

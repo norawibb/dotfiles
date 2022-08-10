@@ -13,12 +13,15 @@ noto-fonts-cjk
 noto-fonts-emoji
 pavucontrol
 picom-ibhagwan-git
+qbittorrent
+spotify
 steam
 stow
 thunar
 thunar-archive-plugin
 thunar-media-tags-plugin
 thunar-volman
+timeshift
 xclip
 vim
 visual-studio-code-bin
